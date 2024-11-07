@@ -3,6 +3,7 @@ const User = require('../models/User');
 const route = express.Router()    // Route instance
 
 
+
 // Creating new user endpoint
 route.post('/new-user', async (req, res) => {
     // get the user properties value
